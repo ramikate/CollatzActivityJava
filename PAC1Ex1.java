@@ -17,7 +17,8 @@ public class PAC1Ex1 {
         do {
             System.out.print(n + " -> ");
             n = nextCollatz(n);
-        } while (n >= 1);
+        } while (n > 1);
+        System.out.print(1);
     }
 
     public static void main(String[] args) {
